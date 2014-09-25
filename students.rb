@@ -38,7 +38,8 @@ class Student < ActiveRecord::Base
          errors.add(:dog_age_correctness, 'student is not correct') 
     end
 
-end 
+  end 
+end
 
 describe "Student" do
 
